@@ -14,7 +14,11 @@ p6df::modules::p6helm::version() { echo "0.0.1"; }
 #
 #>
 ######################################################################
-p6df::modules::p6helm::deps() { ModuleDeps=() }
+p6df::modules::p6helm::deps() {
+  ModuleDeps=(
+    p6m7g8/p6common
+  )
+}
 
 ######################################################################
 #<
@@ -38,7 +42,7 @@ p6df::modules::p6helm::init() { }
 p6_helm_prompt_info() {
 
     local str
-    
+
     if ! p6_string_blank "$KUBECONFIG"; then
       str="helm:     "
     fi
