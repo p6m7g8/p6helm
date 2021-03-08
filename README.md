@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6helm:
+
+#### p6helm/init.zsh:
 
 - p6_helm_prompt_info()
 - p6df::modules::p6helm::deps()
