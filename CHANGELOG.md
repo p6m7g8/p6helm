@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/p6m7g8/p6helm/compare/v2.1.0...v2.1.1) (2021-04-04)
+
+
+* **README:** updates generator ([#11](https://github.com/p6m7g8/p6helm/issues/11)) ([531200e](https://github.com/p6m7g8/p6helm/commit/531200e831a8d8c75e8c0cf1d242b9ddf4df56d7))
+* Coc -> .github ([c85e38b](https://github.com/p6m7g8/p6helm/commit/c85e38b00f3169986776a253a6fa7977331bd79e))
+
 ## [2.1.0](https://github.com/p6m7g8/p6helm/compare/v2.0.0...v2.1.0) (2020-12-06)
 
 
